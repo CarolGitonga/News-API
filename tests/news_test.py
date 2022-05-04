@@ -9,7 +9,7 @@ class NewsTest(unittest.TestCase):
         '''
         the setup method to run before every test
         '''
-        self.new_article = News('bbc','raphael','football','manchester looses','www','src','nov','scores')
+        self.new_article = News('bbc','carol','football','manchester wins','www','src','nov','scores')
         self.new_sources = Sources('BBC','Global news','general','true')
     def test_instance(self):
         self.assertTrue(isinstance(self.new_article,News))
