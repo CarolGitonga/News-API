@@ -13,15 +13,15 @@
 <p>A News-API application that helps list and preview news articles from various sources as well as display current headlines on home page.</p>
 
 ## Installation Requirements
-Make sure you have access to a browser
-Make sure you have access to the internet
-Create a GitHub account
+* Make sure you have access to a browser.
+* Make sure you have access to the internet.
+* Create a GitHub account.
 
 ## Technology Used
-Flask
-CSS
-Bootstrap
-Python
+* Flask
+* CSS
+* Bootstrap
+* Python
 
 ## Licence
 
