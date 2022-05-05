@@ -2,7 +2,6 @@ from flask import render_template,request,redirect,url_for
 from . import main
 from ..requests import get_news,news_sources
 from ..models import News,Sources
-# from ..models import Sources
 
 @main.route('/')
 def source():
