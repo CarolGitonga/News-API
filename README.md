@@ -19,6 +19,9 @@ Create a GitHub account
 
 ## Technology Used
 Flask
+CSS
+Bootstrap
+Python
 
 ## Licence
 
