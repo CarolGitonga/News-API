@@ -1,4 +1,4 @@
 virtual/
-
-instance/
+*.pyc
+instance/config.py
 __pycache__
