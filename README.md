@@ -17,6 +17,22 @@
 * Make sure you have access to the internet.
 * Create a GitHub account.
 
+## Project live link
+* This is the live [link to the app ](https://carolprofilenews.herokuapp.com/)
+
+## Setup instructions
+* Create a virtual environment in your project directory through the terminal with the command: <br>
+```$ python3 -m venv --without-pip virtual```
+
+* Activate the virtual environment:<br>
+```$ source virtual/bin/activate ```
+
+* Install pip for installing other necessary python packages:<br>
+```$ curl https://bootstrap.pypa.io/get-pip.py | python```
+
+* Install flask module:<br>
+```$ pip install flask```
+
 ## Technology Used
 * Flask
 * CSS
