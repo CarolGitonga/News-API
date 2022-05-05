@@ -6,7 +6,7 @@ base_url = None
 
 def configure_request(app):
     global api_key, base_url
-    # api_key= app.config['NEWS_API_KEY']
+    
     api_key = '048b6bd75ce84bb0aef40d755fac23b7'
     base_url = app.config['NEWS_API_BASE_URL']
 
@@ -15,7 +15,7 @@ def get_news(kenya):
     '''
     This function loads the url in a json readable form
     '''
-    # get_news_url = base_url.format(kenya,api_key)
+    
     get_news_url= 'https://newsapi.org/v2/everything?q={}&sortBy=publishedAt&language=en&apiKey={}'.format(kenya,api_key)
     print(get_news_url)
     with urllib.request.urlopen(get_news_url) as url:
@@ -45,12 +45,13 @@ def process_results(news_updates):
         new_article = News(name,author,title,description,url,urlToImage,publishedAt,content)
         news_results.append(new_article)
     return news_results
+
 #The function to load the news sources
 def news_sources(sources):
     '''
     This function loads the url in a json readable form
     '''
-    # get_news_url = base_url.format(kenya,api_key)
+    
     news_source_url= 'https://newsapi.org/v2/sources?q={}&apiKey={}'.format(sources,api_key)
     with urllib.request.urlopen(news_source_url) as url:
         source_data = url.read()
