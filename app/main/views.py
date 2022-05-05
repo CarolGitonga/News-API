@@ -17,7 +17,7 @@ def source():
 @main.route('/news')
 def index():
     live_news = get_news('kenya')
-    title = 'Home - The home to global news'
+    title = 'Home - The home of global news'
 
     search_news = request.args.get('news_search')
     if search_news:
